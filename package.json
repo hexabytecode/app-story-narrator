@@ -7,10 +7,13 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky install"
+    "prepare": "husky || true"
   },
   "dependencies": {
+    "clsx": "^2.1.0",
+    "dotenv": "^16.4.1",
     "next": "14.1.0",
+    "openai": "^4.26.0",
     "react": "^18",
     "react-dom": "^18"
   },
