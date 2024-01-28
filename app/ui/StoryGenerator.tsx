@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { generateBedtimeStory } from "@/app/lib/openai";
 
-export default function expandableStory() {
+export default function ExpandableStory() {
   const [bedtimeStory, setBedtimeStory] = useState<string | null>("");
 
   async function handleGenerate() {

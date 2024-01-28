@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function kathasabha() {
+export default function KathaSabha() {
   return (
     <Image
       className="rounded-full"
